@@ -1,0 +1,364 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        background-color: rgb(26, 44, 83);
+
+
+
+    }
+
+    .top-left {
+        margin-left: 60px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .top-left>a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .top-right {
+        margin-right: 60px;
+        display: flex;
+        gap: 8px;
+
+    }
+
+    .top-right a {
+        color: rgb(46, 46, 88);
+        background-color: rgb(255, 253, 253);
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+
+    }
+
+    .top-right a>i {
+        font-size: 6;
+        text-align: center;
+    }
+
+    /* hero */
+    .hero {
+        position: relative;
+    }
+
+    .hero>img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        background: rgba(0, 0, 0, 0.158);
+        opacity: 1;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 5%;
+        right: 50%;
+        translate: 50%;
+        height: 90px;
+        width: 80%;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 6px;
+    }
+
+    /* logo */
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .logo>img {
+        height: 50px;
+        border: 1px solid gray;
+      
+
+    }
+
+    .logo>h1 {
+        font-size: 22px;
+        color: #1d1d1d;
+        font-weight: 400;
+    }
+
+    /* link */
+    .link {
+        display: flex;
+        gap: 22px;
+    }
+
+    .link>a {
+        text-decoration: none;
+        color: rgb(25, 25, 107);
+        font-weight: 500;
+    }
+
+    .search>i {
+        font-weight: 600;
+        color: rgb(25, 25, 107);
+        font-size: 6;
+    }
+
+    /* hero-info */
+    .hero-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+
+    }
+
+    .hero-info>h1 {
+        color: white;
+        font-size: 30px;
+    }
+
+    .hero-info>p {
+        color: rgba(255, 254, 254, 0.808);
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .hero-btn {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-btn>button {
+        background-color: rgb(12, 87, 248);
+        color: white;
+        font-weight: 600;
+        height: 35px;
+        width: 90px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+
+    }
+
+
+    .hero-btn>h1 {
+        border-bottom: 1px solid wheat;
+        font-size: 16px;
+        font-weight: 400;
+        color: aliceblue;
+        cursor: pointer;
+
+
+    }
+
+    /* section 1*/
+    main {
+        /* background-color: rgb(240, 240, 240); */
+
+    }
+
+    .section-one {
+
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        height: 600px;
+        width: 100%;
+    }
+
+    .left-section {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+
+
+    }
+
+    .left-section>h4 {
+        color: rgb(12, 87, 248);
+        font-weight: 600;
+    }
+
+    .left-section>p {
+        color: #363434c2;
+    }
+
+    .section-icon {
+        display: flex;
+        gap: 20px;
+    }
+
+    .above-icon,
+    .below-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* box */
+    .box1 {
+        height: 60px;
+        width: 60px;
+        background-color: aqua;
+    }
+
+    .box2 {
+        height: 60px;
+        width: 60px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .box3 {
+        height: 60px;
+        width: 60px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .box4 {
+        height: 60px;
+        width: 60px;
+        background-color: aqua;
+    }
+
+    /* right section */
+
+    .right-section>img {
+        height: 400px;
+        width: 350px;
+        object-fit: cover;
+        border-radius: 6px;
+        opacity: 0.9;
+        box-shadow: 0 0 3px rgb(78, 78, 78);
+
+
+    }
+
+    .img-section>img {
+        height: 300px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 6px;
+        position: absolute;
+        top: 50%;
+        translate: -50% -50%;
+       opacity: 0.8;
+        box-shadow: 0 0 3px rgb(78, 78, 78);
+
+
+    }
+
+    /* Section 2 */
+    .section-two {
+        height: 550px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #f8f8f8da;
+
+    }
+    .section-two h1{
+        text-align: center;
+        font-weight: 500;
+        
+    }
+    /* card  */
+    .cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        height: 350px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: white;
+        padding: 0 12px;
+        border-radius: 12px;
+         box-shadow: 0 0 3px rgb(78, 78, 78);
+    }
+
+    .card>img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+      border-radius: 4px;
+         box-shadow: 0 0 1px rgb(131, 129, 129);
+    }
+
+    .card>h3 {
+        color: rgba(0, 0, 0, 0.932);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .card-rate {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card-rate>p {
+        color: rgb(12, 87, 248);
+    }
+
+    .star>i {
+        color: rgb(233, 181, 37);
+    }
+
+    .card-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-button>p,
+    i {
+        color: rgb(12, 87, 248);
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    /* Section Three */
+    .section-three{
+        height: 400px;
+        width: 100%;
+        background-color: rgb(26, 44, 83);
+    }
