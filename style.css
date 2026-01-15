@@ -259,7 +259,7 @@
         width: 350px;
         object-fit: cover;
         border-radius: 6px;
-        opacity: 0.9;
+        
         box-shadow: 0 0 3px rgb(78, 78, 78);
 
 
@@ -273,7 +273,7 @@
         position: absolute;
         top: 50%;
         translate: -50% -50%;
-       opacity: 0.8;
+      
         box-shadow: 0 0 3px rgb(78, 78, 78);
 
 
@@ -358,7 +358,45 @@
 
     /* Section Three */
     .section-three{
-        height: 400px;
+        height: 320px;
         width: 100%;
         background-color: rgb(26, 44, 83);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .online-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .online{
+        height: 250px;
+        width: 300px;
+        padding: 0 14px;
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    .online >i{
+        font-size: 40px;
+        font-weight: 600;
+        color: rgb(90, 107, 255);
+    }
+    .online >h1{
+        color: white;
+        font-size: 23px;
+    }
+    .online >p{
+        color: rgba(243, 227, 227, 0.788);
+    }
+    .online-button >h1{
+        font-size: 16px;
+          color: rgb(90, 107, 255);
+        font-weight: 600;
+        cursor: pointer;
     }
